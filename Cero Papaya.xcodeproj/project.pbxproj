@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F08CDA120EED3F6004B69DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08CDA020EED3F6004B69DE /* AppDelegate.swift */; };
+		2F08CDA320EED3F6004B69DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08CDA220EED3F6004B69DE /* ViewController.swift */; };
+		2F08CDA620EED3F6004B69DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F08CDA420EED3F6004B69DE /* Main.storyboard */; };
+		2F08CDA920EED3F6004B69DE /* Cero_Papaya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F08CDA720EED3F6004B69DE /* Cero_Papaya.xcdatamodeld */; };
+		2F08CDAB20EED3F8004B69DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F08CDAA20EED3F8004B69DE /* Assets.xcassets */; };
+		2F08CDAE20EED3F8004B69DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F08CDAC20EED3F8004B69DE /* LaunchScreen.storyboard */; };
+		EFF4DA673BFEDBD149FDF064 /* Pods_Cero_Papaya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51F26303A76505406CA19BC /* Pods_Cero_Papaya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12220F85734383889DE9CD85 /* Pods-Cero Papaya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cero Papaya.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cero Papaya/Pods-Cero Papaya.release.xcconfig"; sourceTree = "<group>"; };
+		2F08CD9D20EED3F6004B69DE /* Cero Papaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cero Papaya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F08CDA020EED3F6004B69DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F08CDA220EED3F6004B69DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F08CDA520EED3F6004B69DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F08CDA820EED3F6004B69DE /* Cero_Papaya.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cero_Papaya.xcdatamodel; sourceTree = "<group>"; };
+		2F08CDAA20EED3F8004B69DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F08CDAD20EED3F8004B69DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F08CDAF20EED3F8004B69DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F51B5DD41D66523CB7FF7D /* Pods-Cero Papaya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cero Papaya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cero Papaya/Pods-Cero Papaya.debug.xcconfig"; sourceTree = "<group>"; };
+		D51F26303A76505406CA19BC /* Pods_Cero_Papaya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cero_Papaya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F08CD9A20EED3F6004B69DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF4DA673BFEDBD149FDF064 /* Pods_Cero_Papaya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F08CD9420EED3F6004B69DE = {
+			isa = PBXGroup;
+			children = (
+				2F08CD9F20EED3F6004B69DE /* Cero Papaya */,
+				2F08CD9E20EED3F6004B69DE /* Products */,
+				A7D4DA56F5F9957723C66605 /* Pods */,
+				9F9A1D937F52FC3D93DE0F28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F08CD9E20EED3F6004B69DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F08CD9D20EED3F6004B69DE /* Cero Papaya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F08CD9F20EED3F6004B69DE /* Cero Papaya */ = {
+			isa = PBXGroup;
+			children = (
+				2F08CDB820EED434004B69DE /* Views */,
+				2F08CDB720EED42C004B69DE /* Controllers */,
+				2F08CDB620EED423004B69DE /* Models */,
+				2F08CDB520EED40F004B69DE /* Delegates */,
+				2F08CDAA20EED3F8004B69DE /* Assets.xcassets */,
+				2F08CDAF20EED3F8004B69DE /* Info.plist */,
+			);
+			path = "Cero Papaya";
+			sourceTree = "<group>";
+		};
+		2F08CDB520EED40F004B69DE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2F08CDA020EED3F6004B69DE /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		2F08CDB620EED423004B69DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F08CDA720EED3F6004B69DE /* Cero_Papaya.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F08CDB720EED42C004B69DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F08CDA220EED3F6004B69DE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F08CDB820EED434004B69DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F08CDAC20EED3F8004B69DE /* LaunchScreen.storyboard */,
+				2F08CDA420EED3F6004B69DE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F9A1D937F52FC3D93DE0F28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D51F26303A76505406CA19BC /* Pods_Cero_Papaya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7D4DA56F5F9957723C66605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1F51B5DD41D66523CB7FF7D /* Pods-Cero Papaya.debug.xcconfig */,
+				12220F85734383889DE9CD85 /* Pods-Cero Papaya.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F08CD9C20EED3F6004B69DE /* Cero Papaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F08CDB220EED3F8004B69DE /* Build configuration list for PBXNativeTarget "Cero Papaya" */;
+			buildPhases = (
+				19F05B292E819D0418AED8D6 /* [CP] Check Pods Manifest.lock */,
+				2F08CD9920EED3F6004B69DE /* Sources */,
+				2F08CD9A20EED3F6004B69DE /* Frameworks */,
+				2F08CD9B20EED3F6004B69DE /* Resources */,
+				60A86B3FC8724F35C1703870 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cero Papaya";
+			productName = "Cero Papaya";
+			productReference = 2F08CD9D20EED3F6004B69DE /* Cero Papaya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F08CD9520EED3F6004B69DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Carlos Gonzalez";
+				TargetAttributes = {
+					2F08CD9C20EED3F6004B69DE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2F08CD9820EED3F6004B69DE /* Build configuration list for PBXProject "Cero Papaya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F08CD9420EED3F6004B69DE;
+			productRefGroup = 2F08CD9E20EED3F6004B69DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F08CD9C20EED3F6004B69DE /* Cero Papaya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F08CD9B20EED3F6004B69DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F08CDAE20EED3F8004B69DE /* LaunchScreen.storyboard in Resources */,
+				2F08CDAB20EED3F8004B69DE /* Assets.xcassets in Resources */,
+				2F08CDA620EED3F6004B69DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19F05B292E819D0418AED8D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cero Papaya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A86B3FC8724F35C1703870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cero Papaya/Pods-Cero Papaya-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cero Papaya/Pods-Cero Papaya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F08CD9920EED3F6004B69DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F08CDA320EED3F6004B69DE /* ViewController.swift in Sources */,
+				2F08CDA920EED3F6004B69DE /* Cero_Papaya.xcdatamodeld in Sources */,
+				2F08CDA120EED3F6004B69DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F08CDA420EED3F6004B69DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F08CDA520EED3F6004B69DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F08CDAC20EED3F8004B69DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F08CDAD20EED3F8004B69DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F08CDB020EED3F8004B69DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F08CDB120EED3F8004B69DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F08CDB320EED3F8004B69DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F51B5DD41D66523CB7FF7D /* Pods-Cero Papaya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7727FCRG2;
+				INFOPLIST_FILE = "Cero Papaya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gonztech.Cero-Papaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F08CDB420EED3F8004B69DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12220F85734383889DE9CD85 /* Pods-Cero Papaya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7727FCRG2;
+				INFOPLIST_FILE = "Cero Papaya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gonztech.Cero-Papaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F08CD9820EED3F6004B69DE /* Build configuration list for PBXProject "Cero Papaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F08CDB020EED3F8004B69DE /* Debug */,
+				2F08CDB120EED3F8004B69DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F08CDB220EED3F8004B69DE /* Build configuration list for PBXNativeTarget "Cero Papaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F08CDB320EED3F8004B69DE /* Debug */,
+				2F08CDB420EED3F8004B69DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F08CDA720EED3F6004B69DE /* Cero_Papaya.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F08CDA820EED3F6004B69DE /* Cero_Papaya.xcdatamodel */,
+			);
+			currentVersion = 2F08CDA820EED3F6004B69DE /* Cero_Papaya.xcdatamodel */;
+			path = Cero_Papaya.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F08CD9520EED3F6004B69DE /* Project object */;
+}
