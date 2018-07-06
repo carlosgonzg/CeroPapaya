@@ -1,6 +1,0 @@
-framework module Pods_Cero_Papaya {
-  umbrella header "Pods-Cero Papaya-umbrella.h"
-
-  export *
-  module * { export * }
-}
