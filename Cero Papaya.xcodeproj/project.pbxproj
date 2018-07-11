@@ -13,6 +13,7 @@
 		2F08CDA920EED3F6004B69DE /* Cero_Papaya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F08CDA720EED3F6004B69DE /* Cero_Papaya.xcdatamodeld */; };
 		2F08CDAB20EED3F8004B69DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F08CDAA20EED3F8004B69DE /* Assets.xcassets */; };
 		2F08CDAE20EED3F8004B69DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F08CDAC20EED3F8004B69DE /* LaunchScreen.storyboard */; };
+		2F6BA5BA20EFAF460054C792 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BA5B920EFAF450054C792 /* GoogleService-Info.plist */; };
 		EFF4DA673BFEDBD149FDF064 /* Pods_Cero_Papaya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51F26303A76505406CA19BC /* Pods_Cero_Papaya.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 		2F08CDAA20EED3F8004B69DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F08CDAD20EED3F8004B69DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F08CDAF20EED3F8004B69DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6BA5B920EFAF450054C792 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F8CDE2820F6C21800A746C0 /* Cero Papaya.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cero Papaya.entitlements"; sourceTree = "<group>"; };
 		C1F51B5DD41D66523CB7FF7D /* Pods-Cero Papaya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cero Papaya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cero Papaya/Pods-Cero Papaya.debug.xcconfig"; sourceTree = "<group>"; };
 		D51F26303A76505406CA19BC /* Pods_Cero_Papaya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cero_Papaya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,11 +66,13 @@
 		2F08CD9F20EED3F6004B69DE /* Cero Papaya */ = {
 			isa = PBXGroup;
 			children = (
+				2F8CDE2820F6C21800A746C0 /* Cero Papaya.entitlements */,
 				2F08CDB820EED434004B69DE /* Views */,
 				2F08CDB720EED42C004B69DE /* Controllers */,
 				2F08CDB620EED423004B69DE /* Models */,
 				2F08CDB520EED40F004B69DE /* Delegates */,
 				2F08CDAA20EED3F8004B69DE /* Assets.xcassets */,
+				2F6BA5B920EFAF450054C792 /* GoogleService-Info.plist */,
 				2F08CDAF20EED3F8004B69DE /* Info.plist */,
 			);
 			path = "Cero Papaya";
@@ -157,6 +162,11 @@
 				TargetAttributes = {
 					2F08CD9C20EED3F6004B69DE = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -184,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F08CDAE20EED3F8004B69DE /* LaunchScreen.storyboard in Resources */,
+				2F6BA5BA20EFAF460054C792 /* GoogleService-Info.plist in Resources */,
 				2F08CDAB20EED3F8004B69DE /* Assets.xcassets in Resources */,
 				2F08CDA620EED3F6004B69DE /* Main.storyboard in Resources */,
 			);
@@ -394,9 +405,11 @@
 			baseConfigurationReference = C1F51B5DD41D66523CB7FF7D /* Pods-Cero Papaya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Cero Papaya/Cero Papaya.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7727FCRG2;
 				INFOPLIST_FILE = "Cero Papaya/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,9 +426,11 @@
 			baseConfigurationReference = 12220F85734383889DE9CD85 /* Pods-Cero Papaya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Cero Papaya/Cero Papaya.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7727FCRG2;
 				INFOPLIST_FILE = "Cero Papaya/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

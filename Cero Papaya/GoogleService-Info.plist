@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>889916246596-2ebrdcr84lqj0csfoev6d6sgjuta0m61.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.889916246596-2ebrdcr84lqj0csfoev6d6sgjuta0m61</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBCiraurSVqYxMvXX4H425KBwRHKqIcmt4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>889916246596</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gonztech.Cero-Papaya</string>
+	<key>PROJECT_ID</key>
+	<string>cero-papaya</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cero-papaya.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:889916246596:ios:9628c727561a3004</string>
+	<key>DATABASE_URL</key>
+	<string>https://cero-papaya.firebaseio.com</string>
+</dict>
+</plist>
